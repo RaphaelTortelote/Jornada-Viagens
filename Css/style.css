@@ -1,6 +1,21 @@
+:root{
+    --background-primary: #FFFFFF;
+    --background-secondary: #d9d9d9;
+    --background-terciary: #8c8c8c;
+    --background-head: #000000;
+
+    --vermelho-highlight: #b81515;
+    --vermelho-menu: #8f0101;
+
+    --font-clr: #222222;
+
+    --font: "Montserrat", sans-serif;
+
+}
 /* CSS RESET */
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
 }
+
