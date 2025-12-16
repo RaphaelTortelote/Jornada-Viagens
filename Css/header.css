@@ -7,18 +7,36 @@ header {
 
   align-items: flex-start;
   padding: 38px 48px;
+
+  position: relative;
 }
 .navigation-menu {
   margin-top: 24px;
 }
-input[type="checkbox"]:checked~nav{
-display:block;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background-color: var(--background-header);
 }
 
 nav {
   display: none;
 }
+.list__links {
+  list-style: none;
+}
 
+.list__links li {
+  margin: 16px 0;
+}
+.list__links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
 .logo {
   display: inline-block;
   width: 68px;
