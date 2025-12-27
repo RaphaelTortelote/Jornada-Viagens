@@ -4,6 +4,19 @@
   background: url("../img/Mobile/Homepage/Banner\ homepage.png") no-repeat;
   background-size: cover;
 }
+.hero h2{
+    padding: 88px 24px;
+    margin: 0;
+
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: var(--menu-text-weight);
+    color: var(--text-primary-color);
+
+    text-align: center;
+    line-height: 1.5;
+
+}
 @media screen and (min-width: 768px) {
   .hero_img {
     background:url("../img/Mobile/Homepage/Homepage_tablet.png")
@@ -12,6 +25,10 @@
     height: 620px;
     width: 100%;
   }
+  .hero h2{
+    padding: 88px 60px;
+    font-size: 32px;
+}
 }
 @media screen and (min-width: 1024px) {
       .hero_img {
@@ -21,4 +38,9 @@
     height: 620px;
     width: 100%;
   }
+  .hero h2{
+    padding: 104px 120px;
+    font-size: 32px;
+
+}
 }
