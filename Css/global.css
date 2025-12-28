@@ -37,12 +37,61 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
 }
 
 h1 {
-  font-family: "Montserrat";
   font-weight: var(--titles-weight);
   color: var(--primary-red);
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title h2 {
+  font-weight: var(--titles-weight);
+  font-size: 28px;
+
+  margin: 0;
+}
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-red);
+  border: transparent;
+  border-radius: 24px;
+
+  margin: 16px auto 32px;
+}
+
+.button{
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+
+  color: var(--text-secondary-color);
+  font-weight: var(--titles-weight);
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 64px;
+
+  background-color: var(--primary-red);
+  border-radius: 16px;
+}
+
+@media screen and(min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .button:hover{
+    background-color: var(--secondary-red);
+    transition: 0.4s;
+  }
 }
