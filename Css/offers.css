@@ -2,7 +2,7 @@
 .card {
   width: 312px;
   height: 288px;
-
+margin: 24px 24px;
   padding: 24px 16px;
   box-sizing: border-box;
   background: url("../img/Mobile/Homepage/Japão.png");
@@ -10,6 +10,15 @@
   color: var(--text-secondary-color);
   text-align: center;
   border-radius: 16px;
+}
+.card-SA .card {
+  background: url("../img/Mobile/Homepage/San\ Andreas.png");
+}
+.card-paraiba .card {
+  background: url("../img/Mobile/Homepage/Paraíba.png");
+}
+.card-MA {
+  background: url("../img/Mobile/Homepage/Manaus.png");
 }
 .card header {
   display: block;
@@ -32,18 +41,17 @@
   display: inline-block;
 }
 
-@media screen and (min-width:1024px) {
-    .card{
-        width: 588px;
-        height: 308px;
-        background: url("../img/Desktop/Homepage/Japão.png");
-    }
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+    background: url("../img/Desktop/Homepage/Japão.png");
+  }
 
-    .card header h3{
-        font-size: 48px;
-
-    }
-    .card header span{
-        font-size: 40px;
-    }
+  .card header h3 {
+    font-size: 48px;
+  }
+  .card header span {
+    font-size: 40px;
+  }
 }
