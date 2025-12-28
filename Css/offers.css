@@ -1,0 +1,49 @@
+
+.card {
+  width: 312px;
+  height: 288px;
+
+  padding: 24px 16px;
+  box-sizing: border-box;
+  background: url("../img/Mobile/Homepage/Japão.png");
+
+  color: var(--text-secondary-color);
+  text-align: center;
+  border-radius: 16px;
+}
+.card header {
+  display: block;
+  position: static;
+  background: transparent;
+  padding: 0px;
+  margin-bottom: 24px;
+}
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+}
+.card header h3 {
+  font-size: 40px;
+  margin: 8px 0px 0px;
+}
+.card header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
+}
+
+@media screen and (min-width:1024px) {
+    .card{
+        width: 588px;
+        height: 308px;
+        background: url("../img/Desktop/Homepage/Japão.png");
+    }
+
+    .card header h3{
+        font-size: 48px;
+
+    }
+    .card header span{
+        font-size: 40px;
+    }
+}
