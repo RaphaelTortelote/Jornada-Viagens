@@ -1,4 +1,4 @@
-.offer-cards{
+.offer-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,13 +47,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .offer-cards{
+  .offer-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
@@ -81,7 +80,37 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .card {
+  .card {
+    width: 588px;
+    height: 308px;
+    background: url("../img/Desktop/Homepage/Japão.png");
+  }
+  .card-SA .card {
+    background: url("../img/Desktop/Homepage/San\ Andreas.png");
+  }
+  .card-paraiba .card {
+    background: url("../img/Desktop/Homepage/Paraíba.png");
+  }
+  .card-MA {
+    background: url("../img/Desktop/Homepage/Manaus.png");
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+  .card header span {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1956px) {
+  .offer-cards {
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
     width: 588px;
     height: 308px;
     background: url("../img/Desktop/Homepage/Japão.png");
