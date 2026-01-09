@@ -1,0 +1,114 @@
+.destiny {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+
+  align-items: center;
+  margin: 40px 24px 0 24px;
+}
+.destiny_img_tokyo {
+  width: 312px;
+  height: 360px;
+}
+.osaka {
+  width: 312px;
+  height: 360px;
+}
+.destiny h2 {
+  width: 312px;
+  height: 34px;
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  text-align: left;
+}
+.destiny h3 {
+  width: 312px;
+  height: 224px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.destiny .button {
+  text-align: center;
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .destiny_img_tokyo {
+    width: 648px;
+    height: 452px;
+
+    background: url("../img/Desktop_large/Homepage/Destinos\ Tokyo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .osaka {
+    width: 648px;
+    height: 452px;
+
+    background: url("../img/Desktop_Large/Homepage/Destinos\ Osaka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .destiny h2 {
+    width: 87px;
+    height: 34px;
+    align-self: flex-start;
+  }
+  .destiny h3 {
+    align-self: flex-start;
+    width: 648px;
+    height: 96px;
+  }
+  .destiny .button {
+    align-self: flex-start;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destiny_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+
+    margin: 64px 120px 104px 120px;
+  }
+  .destiny{
+    width: 588px;
+    height: 750px;
+  }
+  .destiny_img_tokyo {
+    width: 588px;
+    height: 452px;
+
+    background: url("../img/Desktop_large/Homepage/Destinos\ Tokyo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .osaka {
+    width: 588px;
+    height: 452px;
+
+    background: url("../img/Desktop_Large/Homepage/Destinos\ Osaka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .destiny h2 {
+    width: 87px;
+    height: 34px;
+    align-self: flex-start;
+  }
+  .destiny h3 {
+    align-self: flex-start;
+    width: 588px;
+    height: 96px;
+  }
+  .destiny .button {
+    align-self: flex-start;
+    width: 280px;
+  }
+}
